@@ -1,5 +1,12 @@
 # clipboard
 
+> **Superseded.** Clipboard access is in
+> [bridge](https://github.com/bats-lang/bridge) (`clipboard_write`,
+> `clipboard_read`, in
+> [`src/clipboard.bats`](https://github.com/bats-lang/bridge/blob/main/src/clipboard.bats)).
+> Use `#use wasm.bats-packages.dev/bridge` instead. No package depends on
+> this one, and the repository is to be archived.
+
 Clipboard write access. Writes safe text to the system clipboard. Returns a
 promise that resolves when the operation completes.
 
